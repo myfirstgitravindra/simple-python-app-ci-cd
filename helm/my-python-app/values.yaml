@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  repository: your-dockerhub-username/my-python-app
+  repository: ravindra806/my-python-app
   pullPolicy: IfNotPresent
   tag: "S2"
 
