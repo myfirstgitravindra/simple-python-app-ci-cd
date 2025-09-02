@@ -4,7 +4,7 @@ replicaCount: 1
 image:
   repository: your-dockerhub-username/my-python-app
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "S2"
 
 service:
   type: ClusterIP
