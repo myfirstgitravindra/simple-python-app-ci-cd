@@ -1,0 +1,15 @@
+# Default values for my-python-app.
+replicaCount: 1
+
+image:
+  repository: your-dockerhub-username/my-python-app
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 5000
+
+env:
+  ENVIRONMENT: production
