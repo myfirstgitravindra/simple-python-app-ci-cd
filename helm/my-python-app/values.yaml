@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  repository: ravindra806/python1
+  repository: ravindra806/my-python-app
   pullPolicy: IfNotPresent
   tag: "S2"
 
