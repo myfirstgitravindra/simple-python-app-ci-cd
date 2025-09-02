@@ -4,7 +4,7 @@ replicaCount: 1
 image:
   repository: ravindra806/python1
   pullPolicy: IfNotPresent
-  tag: "S3"
+  tag: "S4"
 
 service:
   type: ClusterIP
